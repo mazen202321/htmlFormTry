@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-transform: capitalize;
+            margin: 0px;
+
+        }
+
+        header {
+            width: 100%;
+            background-color: #007bff;
+            margin-bottom: 20px;
+            font-size: 40px;
+            text-align: center;
+            color: #ffffff;
+
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+
+        }
+
+        .input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        form label {
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>new product</p>
+    </header>
+    <form action="">
+        <div class="content">
+            <label for="">product name:</label>
+            <input class="input" type="text">
+        </div>
+        <div class="content">
+            <label for="">product price:</label>
+            <input class="input" type="number">
+        </div>
+        <div class="content">
+            <label for="">product quantity:</label>
+            <input class="input" type="number">
+        </div>
+        <div class="content">
+            <label for="">product image url:</label>
+            <input class="input" type="url">
+        </div>
+        <div class="content">
+            <label for="">product category:</label>
+            <select class="input" name="" id="">
+                <option value="">electronics</option>
+                <option value="">clothing</option>
+                <option value="">home</option>
+                <option value="">toys</option>
+                <option value="">other</option>
+            </select>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
